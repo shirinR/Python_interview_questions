@@ -1,15 +1,11 @@
-# Python_interview_questions
-# Binary Search algorithem
-# Node class
-# Insert method
-# Lookup method
-# Delete method
-# Print method
 
 class Node:
     def __init__(self, data):
+    
         self.left = None
+        
         self.right = None
+        
         self.data = data
 
     def insert(self, data):
